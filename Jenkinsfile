@@ -19,7 +19,7 @@ pipeline{
         }
         stage('Checkout from Git'){
             steps{
-                git branch: 'main', url: 'https://github.com/Aj7Ay/Youtube-clone-app.git'
+                git branch: 'main', url: 'https://github.com/prince2998/project_youtube_clone.git'
             }
         }
         stage("Sonarqube Analysis "){
